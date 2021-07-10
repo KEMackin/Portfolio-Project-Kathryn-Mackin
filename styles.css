@@ -47,8 +47,13 @@ img .logo {
   width: 5px;
 }
 
-nav {
-  background: var(--primary-color);
+footer {
+  text-align: center;
+}
+
+i {
+  color: #281e5f;
+  size: 72px;
 }
 
 .navbar {

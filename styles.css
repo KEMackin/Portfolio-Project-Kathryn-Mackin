@@ -8,6 +8,7 @@ body {
   margin: 60px auto;
   max-width: 100%;
   padding-top: 70px;
+  font-family: "Gabriela", serif;
 }
 
 h1,
@@ -44,6 +45,10 @@ p .project-info {
 
 img .logo {
   width: 5px;
+}
+
+nav {
+  background: var(--primary-color);
 }
 
 .navbar {

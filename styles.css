@@ -116,7 +116,9 @@ i {
 .email-link:hover {
   text-decoration: underline;
 }
-
+.contact-me-links {
+  text-decoration: none;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;

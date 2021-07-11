@@ -16,6 +16,7 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  color: var(--primary-color);
 }
 
 h1 {
@@ -41,10 +42,6 @@ p {
 
 p .project-info {
   background: var(--secondary-color);
-}
-
-img .logo {
-  width: 5px;
 }
 
 footer {
@@ -96,6 +93,13 @@ i {
   display: block;
 }
 
+.homepage-coding {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+}
+
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
@@ -116,9 +120,7 @@ i {
 .email-link:hover {
   text-decoration: underline;
 }
-.contact-me-links {
-  text-decoration: none;
-}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;

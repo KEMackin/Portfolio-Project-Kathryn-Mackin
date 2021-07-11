@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #281e5f;
+  --primary-color: #1f2158;
   --secondary-color: #e3e1e7;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -33,7 +33,7 @@ h3 {
 }
 
 p {
-  padding: 20px;
+  padding: 20px 50px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
@@ -46,11 +46,14 @@ p .project-info {
 
 footer {
   text-align: center;
+  padding: 20px 10px 20px 10px;
+  background: #281e5f;
 }
 
 i {
-  color: #281e5f;
+  color: #e3e1e7;
   size: 72px;
+  padding: 0px 10px 0px 10px;
 }
 
 .navbar {
@@ -98,6 +101,14 @@ i {
   margin: 0 auto;
   display: block;
   border-radius: 5px;
+}
+
+.profile-picture {
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  padding: 35px 0px 0px 0px;
 }
 
 .about-paragraphs {

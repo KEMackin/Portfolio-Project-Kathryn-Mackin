@@ -47,13 +47,17 @@ p .project-info {
 footer {
   text-align: center;
   padding: 20px 10px 20px 10px;
-  background: #281e5f;
+  background-color: var(--primary-color);
 }
 
 i {
   color: #e3e1e7;
   size: 72px;
   padding: 0px 10px 0px 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .navbar {
@@ -97,10 +101,11 @@ i {
 }
 
 .homepage-coding {
-  width: 60%;
+  width: 45%;
   margin: 0 auto;
   display: block;
   border-radius: 5px;
+  padding: 45px 0px 0px 0px;
 }
 
 .profile-picture {

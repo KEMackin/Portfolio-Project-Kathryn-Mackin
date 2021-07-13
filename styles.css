@@ -77,7 +77,7 @@ a {
 
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 20px 30px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -109,11 +109,11 @@ a {
 }
 
 .profile-picture {
-  width: 250px;
+  width: 350px;
+  border-radius: 0px;
   margin: 0 auto;
   display: block;
-  border-radius: 5px;
-  padding: 35px 0px 0px 0px;
+  padding: 0px 0px 35px 0px;
 }
 
 .about-paragraphs {

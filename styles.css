@@ -12,14 +12,13 @@ body {
 }
 
 h1,
-h2,
 h3 {
-  text-align: center;
   margin: 0;
   color: var(--primary-color);
 }
 
 h1 {
+  text-align: center;
   font-size: 96px;
 }
 
@@ -28,6 +27,7 @@ h2 {
 }
 
 h3 {
+  text-align: center;
   font-size: 24px;
   opacity: 0.7;
 }
@@ -127,7 +127,6 @@ a {
 
 .email-link {
   display: flex;
-  justify-content: center;
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
@@ -135,6 +134,33 @@ a {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.emoji {
+  color: var(--primary-color);
+  size: 72px;
+}
+
+.linkedIn-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  opacity: 95%;
+  text-align: text-center;
+  size: 52px;
+}
+
+.gitHub-link {
+  text-decoration: none;
+  text-decoration: none;
+  color: var(--primary-color);
+  opacity: 95%;
+  text-align: text-center;
+}
+
+.coding-image {
+  width: 35%;
+  margin: 0 auto;
+  display: block;
 }
 
 @media (max-width: 576px) {
